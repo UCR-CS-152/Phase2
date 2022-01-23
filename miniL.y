@@ -1,7 +1,6 @@
     /* cs152-miniL phase2 */
 %{
 void yyerror(const char *msg);
-
 %}
 
 %union{
@@ -11,11 +10,11 @@ void yyerror(const char *msg);
 %error-verbose
 %locations
 
-%start S
+/* %start program */
 
 %% 
 
-S : '\n' { }
+  /* write your rules here */
 
 %% 
 

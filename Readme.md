@@ -1,8 +1,8 @@
-CS152 Project Phase 1 - Lexical Analyzer Generation Using flex
+CS152 Project Phase 2 - Parser Generation Using bison
 ===============================================================
 
 
-[Home Page - Phase1 Lexer](https://www.cs.ucr.edu/~dtan004/proj1/phase1_lexer.html)
+[Home Page - Phase2 Parser](https://www.cs.ucr.edu/~dtan004/proj2/phase2_parser.html)
 
 
 ## Tools preparation
@@ -15,28 +15,29 @@ ssh <your-net-id>@bolt.cs.ucr.edu
 
 Make sure you have the following tools installed and check the version:
 1. flex -V       (>=2.5)
-2. git --version (>=1.8)
-3. make -v       (>=3.8)
-4. gcc -v        (>=4.8)
-5. g++ -v        (>=4.8 optional if you wish to use C++)
+2. bison -V      (>=3.0)
+3. git --version (>=1.8)
+4. make -v       (>=3.8)
+5. gcc -v        (>=4.8)
+6. g++ -v        (>=4.8 optional if you wish to use C++)
 
 ## Clone and Build
 
-Use 'git' to clone the project template and build it by typing 'make'
+Use 'git' to clone the project template and copy your code in phase 2 into this new repository.
 
 ```sh
-    git clone <your-repo-link> phase1
-    cd phase1 && make
+    git clone <your-repo-link> phase2
+    cd phase2 && make
 ```
 
 ## Use the template
 
-You can change any files and add additional C files, but please make sure all files are linked to the final executable file in Makefile. Please don't change the name of 'Makefile' and 'miniL.lex'. After typing make, An executable file 'miniL' is expected to be created as your phase1 lexer.
+You can change any files and add additional C/C++ files, but please make sure all files are linked to the final executable file in Makefile. Please don't change the name of 'Makefile' , 'miniL.lex' and 'miniL.y'. After typing make, An executable file 'miniL' is expected to be created as your phase2 parser.
 
 ## Project Submission 
 
-* Start Date: 1/10/21
-* Due Date:   1/16/21
+* Start Date: 1/24/21
+* Due Date:   2/06/21
 
 Project submission requires you to commit and push your code to Github after finishing the phase1 project. As the following steps:
 ```sh
