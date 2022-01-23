@@ -31,7 +31,7 @@ Your TA's Github account:
 * Xiaofan Sun -  sunxfancy
 * Daniel Tan   -  danieltan1517
 
-Finally, use 'git' to clone the project into your own machine or bolt and copy your code in phase 2 into this new repository.
+Finally, use 'git' to clone the project into your own machine or bolt, and copy your code in phase 1 into this new repository.
 
 ```sh
     git clone <your-repo-link> phase2
